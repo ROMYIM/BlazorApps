@@ -1,0 +1,16 @@
+.home-header-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header-search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px;
+    height: auto;
+    width: auto;
+}

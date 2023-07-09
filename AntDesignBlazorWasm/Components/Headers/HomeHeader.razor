@@ -1,0 +1,17 @@
+@inherits ComponentBase
+
+<div class="home-header-layout" style="height: @Height; width: @Width">
+    <HeaderMenu></HeaderMenu>
+    <div class="header-search-container">
+        <Search Placeholder="请输入关键字查询" Style="min-width: 20vw" ClassicSearchIcon="true"></Search>
+    </div>
+</div>
+
+@code {
+    
+    [Parameter]
+    public string Height { get; set; }
+
+    [Parameter]
+    public string Width { get; set; }
+}

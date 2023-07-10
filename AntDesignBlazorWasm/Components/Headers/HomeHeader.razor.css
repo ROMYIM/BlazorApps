@@ -14,3 +14,8 @@
     height: auto;
     width: auto;
 }
+
+.header-search-bar {
+    border-radius: 20px;
+    min-width: 20vw;
+}

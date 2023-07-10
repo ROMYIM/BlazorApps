@@ -1,0 +1,25 @@
+.preview-container {
+    border-radius: 3px;
+    min-width: 30px;
+    min-height: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.preview-left-side {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.preview-right-side {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}

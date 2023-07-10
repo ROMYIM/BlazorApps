@@ -10,12 +10,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px 5px;
+    padding: 7px 7px;
     height: auto;
     width: auto;
 }
 
-.header-search-bar {
+::deep .header-search-bar {
     border-radius: 20px;
     min-width: 20vw;
 }

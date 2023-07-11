@@ -1,6 +1,17 @@
 <div class="preview-container">
-    <div class="preview-left-side"></div>
-    <div class="preview-right-side"></div>
+    <div class="preview-left-side">
+        @for (var i = 0; i < 9; i++)
+        {
+            <div class="left-side-item">项目@(i+1)</div>
+        }
+    </div>
+    <div class="preview-right-side">
+        <h3 class="right-side-item">自定义标题</h3>
+        @for (var i = 0; i < 6; i++)
+        {
+            <div class="right-side-item">热榜@(i+1)</div>
+        }
+    </div>
 </div>
 
 @code {

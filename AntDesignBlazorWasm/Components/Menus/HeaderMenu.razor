@@ -1,8 +1,11 @@
+@using AntDesignBlazorWasm.Components.Previews
 @inherits ComponentBase
 
 <div>
     <Menu Mode="MenuMode.Horizontal">
-        <MenuItem Class="item-animation">首页</MenuItem>
+        <Dropdown Placement="Placement.Bottom" Overlay="@_menuDisplay" Arrow="true">
+            <MenuItem Class="item-animation">首页</MenuItem>
+        </Dropdown>
         <MenuItem Class="item-animation">新番</MenuItem>
     </Menu>
 </div>
@@ -10,6 +13,6 @@
 
 @code {
 
-    RenderFragment _menuDisplay = @<Menu></Menu>;
+    RenderFragment _menuDisplay = @<MenuPreview></MenuPreview>;
     
 }

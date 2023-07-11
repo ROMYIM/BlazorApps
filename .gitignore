@@ -1,1 +1,9 @@
 /AntDesignBlazorWasm/obj/
+/AntDesignBlazorWasm/node_modules
+/AntDesignBlazorWasm/bin/Debug
+/.vs
+/BootstrapBlazorWasm/bin/Debug/net7.0
+/BootstrapBlazorWasm/obj
+/AntDesignBlazorWasm/package.json
+/AntDesignBlazorWasm/package-lock.json
+/AntDesignBlazorWasm/AntDesignBlazorWasm.csproj.user

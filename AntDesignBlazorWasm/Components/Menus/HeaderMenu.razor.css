@@ -1,0 +1,4 @@
+::deep .item-animation:hover {
+    animation: rubberBand;
+    animation-duration: 0.7s;
+}

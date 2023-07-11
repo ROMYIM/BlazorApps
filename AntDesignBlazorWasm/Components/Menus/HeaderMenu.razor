@@ -1,14 +1,15 @@
 @inherits ComponentBase
 
-<Menu Mode="MenuMode.Horizontal">
-    <MenuItem>首页</MenuItem>
-    <MenuItem>新番</MenuItem>
-
-</Menu>
+<div>
+    <Menu Mode="MenuMode.Horizontal">
+        <MenuItem Class="item-animation">首页</MenuItem>
+        <MenuItem Class="item-animation">新番</MenuItem>
+    </Menu>
+</div>
 @* 预览 *@
 
 @code {
 
     RenderFragment _menuDisplay = @<Menu></Menu>;
-
+    
 }

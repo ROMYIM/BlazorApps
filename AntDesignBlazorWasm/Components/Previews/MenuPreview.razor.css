@@ -1,11 +1,12 @@
 .preview-container {
     border-radius: 3px;
-    min-width: 30vw;
+    min-width: 20vw;
     min-height: 25vh;
     padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
 }
 
 .preview-left-side {
@@ -31,7 +32,7 @@
 
 .right-side-item {
     text-align: center;
-    vertical-align: center;
+    align-items: center;
     width: 100%;
     height: auto;
 }

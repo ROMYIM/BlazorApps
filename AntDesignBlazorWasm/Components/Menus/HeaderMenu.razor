@@ -3,10 +3,13 @@
 
 <div>
     <Menu Mode="MenuMode.Horizontal">
-        <Dropdown Placement="Placement.Bottom" Overlay="@_menuDisplay" Arrow="true">
-            <MenuItem Class="item-animation">首页</MenuItem>
-        </Dropdown>
+        <MenuItem Class="item-animation">首页</MenuItem>
         <MenuItem Class="item-animation">新番</MenuItem>
+        <MenuItem Class="item-animation">推荐</MenuItem>
+        <Dropdown Placement="Placement.Bottom" Overlay="@_menuDisplay" Arrow="true">
+            <MenuItem Class="item-animation">我的</MenuItem>
+        </Dropdown>
+        
     </Menu>
 </div>
 @* 预览 *@
